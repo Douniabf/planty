@@ -10,7 +10,19 @@ Version: 2023.1706109998
 Updated: 2024-01-24 15:26:38
 
 */
+header{
+    background-color: aqua;
+    display: flex;
+}
+header ul 
+{
+    display: flex;
+}
 
-header {
-    background-color: orange;
+#copyright{
+    display: flex;
+    background-color: red;
+}
+.entry-title{
+    display: none !important;
 }
