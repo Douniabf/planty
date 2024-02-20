@@ -72,3 +72,106 @@ header ul
     font-size: 0.9em;
     font-weight: 500;
 }
+
+
+.button{
+    background-color: #DC9F96;
+    border: none;
+    outline: none;
+    color: white;
+    font-family: Syne;
+    padding: 20px;
+}
+
+#menu 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+}
+
+#menu a  
+{
+    color: black;
+    font-family: Syne;
+}
+
+
+/*formulaire nous rencontrer*/
+.test 
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ECE2DA;
+}
+
+.test img{
+    margin-left: -90px;
+    margin-top: -130px;
+}
+
+.test label{
+    font-weight: 400;
+    font-size: 20px;
+    color: black;
+}
+
+#nr_name{
+    width:100% !important;
+    border-radius: 7px;
+    height: 71px;
+}
+
+#nr_email{
+    width:100% !important;
+    border-radius: 7px;
+    height: 71px;
+}
+
+#nr_message{
+    border-radius: 7px;
+    height: 237px;
+}
+
+#nr_submit{
+    background-color: #E0B9B4;
+    color: white;
+    width: 100%;
+    height: 55px;
+    border-radius: 5px;
+
+
+}
+
+
+
+/*formulaire commander*/
+
+.haut 
+{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.haut div 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.haut div img 
+{
+    width: 150px;
+
+}
+
+.haut div span  
+{
+    width: 10px;
+}
