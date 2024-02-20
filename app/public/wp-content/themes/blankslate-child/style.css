@@ -99,6 +99,7 @@ header ul
 
 
 /*formulaire nous rencontrer*/
+
 .test 
 {
     display: flex;
@@ -147,17 +148,27 @@ header ul
 }
 
 
-
 /*formulaire commander*/
 
-.haut 
+.fr_commandes 
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.fr_haut 
 {
     display: flex;
     justify-content: center;
     gap: 20px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid white;
 }
 
-.haut div 
+.fr_haut div 
 {
     display: flex;
     justify-content: center;
@@ -165,13 +176,109 @@ header ul
     flex-direction: column;
 }
 
-.haut div img 
+.fr_haut div img 
 {
     width: 150px;
-
 }
 
-.haut div span  
+.fr_haut div p 
 {
-    width: 10px;
+    font-size: 20px;
+    font-weight: 800;
 }
+
+.fr_bas
+{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+}
+
+
+.line2 
+{
+    width: 1px;
+    height: 300px;
+    background-color: white;
+}
+
+.texte_image{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    color: white;
+}
+
+#photo{
+    position: relative;
+    width: 192px;
+    height: 128px;
+}
+
+#photo img 
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+#photo p {
+    top: 5%;
+    left: 5%;
+    z-index: 2;
+}
+
+#dounia, #dounia1, #dounia2, #dounia3, #dounia4, #dounia5
+{
+    width: 100% !important;
+    border-radius: 7px;
+} 
+
+.fr_bas p, h2
+{
+    color: white;
+}
+
+.fr_bas h2 
+{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+#buttonCommandees 
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+#buttonCommandes 
+{
+  background-color: #E0B9B4;
+  border-radius: 5px;
+  margin-left: 60px;
+  margin-top: 30px;
+}
+
+#compteur1, #compteur2, #compteur3, #compteur4
+{
+    margin-top: 15px;
+    width: 39px !important;
+    text-align: center;
+}
+
+#compteur1::placeholder,#compteur2::placeholder,#compteur3::placeholder,#compteur4::placeholder
+{
+    color: black;
+}
+
+input::-webkit-outer-spin-button,
+      input::-webkit-inner-spin-button {
+        display: none;
+      }
