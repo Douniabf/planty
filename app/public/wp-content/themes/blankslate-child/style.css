@@ -10,19 +10,65 @@ Version: 2023.1706109998
 Updated: 2024-01-24 15:26:38
 
 */
-header{
-    background-color: aqua;
+#header{
+    background-color: white;
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 0px 0px 25px;
 }
+
 header ul 
 {
     display: flex;
+    align-items: center;
+    gap: 30px;
+    font-weight: 580;
+    font-size: 0.8em;
+}
+
+.menu-item-21 a 
+{
+    color: black;
+    font-family: Syne;
+}
+
+.menu-item-20 
+{
+    color: white;
+    padding: 25px;
+    background: #DC9F96;
+}
+
+.menu-item-20 a
+{
+    color: white;
+    font-family: Syne;
+}
+
+
+.post-edit-link
+{
+    display: none;
 }
 
 #copyright{
     display: flex;
-    background-color: red;
+    background-color: white;
 }
 .entry-title{
     display: none !important;
+}
+
+#footer 
+{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Syne;
+    padding: 15px 0px;
+    font-size: 0.9em;
+    font-weight: 500;
 }
