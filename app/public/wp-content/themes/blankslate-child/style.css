@@ -17,6 +17,7 @@ Updated: 2024-01-24 15:26:38
     justify-content: space-between;
     align-items: center;
     padding: 0px 0px 0px 25px;
+    flex-wrap: wrap;
 }
 
 header ul 
@@ -89,6 +90,8 @@ header ul
     justify-content: center;
     align-items: center;
     gap: 35px;
+    flex-wrap: wrap;
+
 }
 
 #menu a  
@@ -166,6 +169,7 @@ header ul
     gap: 20px;
     padding-bottom: 30px;
     border-bottom: 1px solid white;
+    flex-wrap: wrap;
 }
 
 .fr_haut div 
@@ -194,6 +198,7 @@ header ul
     justify-content: center;
     align-items: center;
     gap: 70px;
+    flex-wrap: wrap;
 }
 
 
@@ -282,3 +287,11 @@ input::-webkit-outer-spin-button,
       input::-webkit-inner-spin-button {
         display: none;
       }
+ @media (max-width: 800px) {
+        .line2 
+        {
+           display: none;
+        }
+
+      }
+    
